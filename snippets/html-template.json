@@ -1,0 +1,14 @@
+{
+  "Pug/Jade HTML Template": {
+    "prefix": "html",
+    "body": [
+      "doctype",
+      "html(lang='en')",
+      "\thead",
+      "\t\tmeta(charset='utf-8')",
+      "\t\ttitle",
+      "\tbody"
+    ],
+    "description": "html template"
+  }
+}

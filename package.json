@@ -14,7 +14,7 @@
         "snippets": [
             {
                 "language": "jade",
-                "path": "./snippets/snippets.json"
+                "path": "./snippets/html-template.json"
             }
         ]
     },

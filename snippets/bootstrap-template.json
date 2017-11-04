@@ -1,5 +1,6 @@
 {
   "bootstrap template": {
+    "prefix": "bootstrap",
     "body": [
       "doctype",
       "html(lang='$1')",

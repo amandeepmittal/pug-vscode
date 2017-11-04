@@ -1,0 +1,22 @@
+{
+  "extends": {
+    "prefix": "ext",
+    "body": "extends layout"
+  },
+  "include": {
+    "prefix": "inc",
+    "body": "include ./includes/$1"
+  },
+  "blockname": {
+    "prefix": "block",
+    "body": "block $1"
+  },
+  "render file": {
+    "prefix": "pugrf",
+    "body": "pug.renderFile($1);"
+  },
+  "mixin": {
+    "prefix": "mixin",
+    "body": "mixin $1"
+  }
+}

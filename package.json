@@ -15,6 +15,10 @@
             {
                 "language": "jade",
                 "path": "./snippets/html-template.json"
+            },
+            {
+                "language": "jade",
+                "path": "./snippets/syntax.json"
             }
         ]
     },

@@ -31,12 +31,16 @@ Provides Pug/Jade Snippets for VSCode to avoid writing boilerplate code.
 - `panel`
 - `login` form
 - `signup` form
+- `navbar`
 
 **Others**
 - `cpug` require pug
 - `ipug` import pug
 - `lorem` generate dummy text
 - `fa` to include font-awesome icon
+
+#### Contribute
+Pull requests for more snippets are welcome.
 
 #### License
 This software is released under the terms of the MIT license.

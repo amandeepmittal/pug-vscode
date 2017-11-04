@@ -48,6 +48,10 @@
             {
                 "language": "jade",
                 "path": "./snippets/bootstrap-signup-form.json"
+            },
+            {
+                "language": "jade",
+                "path": "./snippets/bootstrap-navbar.json"
             }
         ]
     },

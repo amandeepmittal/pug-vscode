@@ -1,0 +1,40 @@
+{
+  "navbar with bootstrap": {
+    "prefix": "navbar",
+    "body": [
+      " nav.navbar.navbar-default.navbar-static-top",
+      "\t.container",
+      "\t\t.navbar-header",
+      "\t\t\tbutton.navbar-toggle.collapsed(type='button', data-toggle='collapse', data-target='#navbar', aria-expanded='false', aria-controls='navbar')",
+      "\t\t\t\tspan.sr-only Toggle navigation",
+      "\t\t\t\tspan.icon-bar",
+      "\t\t\t\tspan.icon-bar",
+      "\t\t\t\tspan.icon-bar",
+      "\t\t\ta.navbar-brand(href='/') App Name",
+      "\t\t#navbar.navbar-collapse.collapse",
+      "\t\t\tul.nav.navbar-nav",
+      "\t\t\t\tli(class=(title == 'Home') ? 'active' : null)",
+      "\t\t\t\t\ta(href='/') Home",
+      "\t\t\t\tli(class=(title == 'About') ? 'active' : null)",
+      "\t\t\t\t\ta(href='/about') About",
+      "\t\t\tul.nav.navbar-nav.navbar-right",
+      "\t\t\t\tif user",
+      "\t\t\t\t\tli.dropdown",
+      "\t\t\t\t\t\ta.navbar-avatar.dropdown-toggle(href='#', data-toggle='dropdown')",
+      "\t\t\t\t\t\t\tspan #{user.name || user.email} &nbsp;",
+      "\t\t\t\t\t\t\ti.caret",
+      "\t\t\t\t\t\tul.dropdown-menu",
+      "\t\t\t\t\t\t\tli",
+      "\t\t\t\t\t\t\t\ta(href='/profile') Profile",
+      "\t\t\t\t\t\t\tli.divider(role='separator')",
+      "\t\t\t\t\t\t\tli",
+      "\t\t\t\t\t\t\t\ta(href='/logout') Logout",
+      "\t\t\t\telse",
+      "\t\t\t\t\tli(class=(title == 'Log in') ? 'active' : null)",
+      "\t\t\t\t\t\ta(href='/login') Log-in",
+      "\t\t\t\t\tli(class=(title == 'Register') ? 'active' : null)",
+      "\t\t\t\t\t\ta(href='/register') Register",
+      "//- /.nav-collapse"
+    ]
+  }
+}

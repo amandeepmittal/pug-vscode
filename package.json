@@ -2,7 +2,7 @@
     "name": "pug",
     "displayName": "pug",
     "description": "Pug/Jade Snippets for VSCode",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "publisher": "amandeepmittal",
     "icon": "images/pug.png",
     "engines": {
@@ -62,5 +62,9 @@
         "node",
         "snippet"
     ],
-    "homepage": "https://amandeepmittal.github.io/"
+    "homepage": "https://amandeepmittal.github.io/",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/amandeepmittal/pug-vscode"
+    }
 }

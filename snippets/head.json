@@ -2,5 +2,9 @@
   "link": {
     "prefix": "link",
     "body": "link(rel=\"stylesheet\", href=\"$1:css/style.css}\", $3:attr)$4"
+  },
+  "favicon": {
+    "prefix": "favicon",
+    "body": "link(rel=\"$1:shortcut-icon\", href=\"$2.ico\")"
   }
 }

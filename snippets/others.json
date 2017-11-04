@@ -3,5 +3,13 @@
     "prefix": "lorem",
     "body": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
     "description": "inserts dummy text"
+  },
+  "require pug": {
+    "prefix": "cpug",
+    "body": "const pug = require('pug');"
+  },
+  "import pug": {
+    "prefix": "ipug",
+    "body": "import pug from 'pug';"
   }
 }

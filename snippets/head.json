@@ -1,14 +1,17 @@
 {
   "link": {
     "prefix": "link",
-    "body": "link(rel=\"stylesheet\", href=\"$1:css/style.css}\", $3:attr)$4"
+    "body": "link(rel=\"stylesheet\", href=\"${1:path.css}\", ${3:attr})",
+    "description": "add a stylesheet"
   },
   "favicon": {
     "prefix": "favicon",
-    "body": "link(rel=\"$1:shortcut-icon\", href=\"$2.ico\")"
+    "body": "link(rel=\"${1:shortcut-icon}\", href=\"${2:path}.ico\")",
+    "description": "add a favicon"
   },
   "meta": {
     "prefix": "meta",
-    "body": "meta(name=\"$1:name\" content=\"$2:content\")"
+    "body": "meta(name=\"${1:name}\" content=\"${2:content}\")",
+    "description": "add a meta tag"
   }
 }

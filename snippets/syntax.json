@@ -1,7 +1,7 @@
 {
   "extends": {
     "prefix": "ext",
-    "body": "extends layout"
+    "body": "extends $1"
   },
   "include": {
     "prefix": "inc",

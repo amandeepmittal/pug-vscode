@@ -2,17 +2,18 @@
   "signup form with Bootstrap": {
     "prefix": "signup",
     "body": [
-      "form(action='$1:#' method='$2:method')",
+      "form(action='${1:#}' method='${2:method}')",
       "\t.form-group",
       "\t\tlabel(for='name') Name",
       "\t\tinput.form-control(type='text', name='name' placeholder='Name' autofocus=true)",
       "\t.form-group",
-      "\t\tlabel(for='$3:email') $4:Email",
-      "\t\tinput.form-control(type='$5:email', name='$6:email' placeholder='$7:Email')",
+      "\t\tlabel(for='${3:email}') ${4:Email}",
+      "\t\tinput.form-control(type='${5:email}', name='${6:email}' placeholder='${7:Email}')",
       "\t.form-group",
-      "\t\tlabel(for='$8:password}') $9:Password",
-      "\t\tinput.form-control(type='$10:password', name='$11:password')",
-      "button.btn.btn-$12:primary(type='submit') $13:Register"
-    ]
+      "\t\tlabel(for='${8:password}') ${9:Password}",
+      "\t\tinput.form-control(type='${10:password}', name='${11:password}')",
+      "button.btn.btn-${12:primary}(type='submit') ${13:Register}"
+    ],
+    "description": "bootstrap sign up form"
   }
 }

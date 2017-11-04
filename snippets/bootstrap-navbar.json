@@ -35,6 +35,7 @@
       "\t\t\t\t\tli(class=(title == 'Register') ? 'active' : null)",
       "\t\t\t\t\t\ta(href='/register') Register",
       "//- /.nav-collapse"
-    ]
+    ],
+    "description": "navbar with bootstrap"
   }
 }

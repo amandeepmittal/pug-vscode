@@ -1,14 +1,17 @@
 {
   "anchor": {
     "prefix": "a",
-    "body": "a(href=\"$1\") $2:link"
+    "body": "a(href=\"$1\") ${2:link}",
+    "description": "anchor tag"
   },
   "image": {
     "prefix": "img",
-    "body": "img(src=\"$1\", alt=\"$2:alt\")"
+    "body": "img(src=\"$1\", alt=\"${2:alt}\")",
+    "description": "image tag"
   },
   "form": {
     "prefix": "form",
-    "body": "form(action=\"$1\" method=\"$2:method\")"
+    "body": "form(action=\"$1\" method=\"${2:method}\")",
+    "description": "form tag"
   }
 }

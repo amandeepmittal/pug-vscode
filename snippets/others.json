@@ -2,7 +2,7 @@
   "lorem lipsum text": {
     "prefix": "lorem",
     "body": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-    "description": "inserts dummy text"
+    "description": "insert dummy text"
   },
   "require pug": {
     "prefix": "cpug",
@@ -14,6 +14,7 @@
   },
   "font-awesome icon": {
     "prefix": "fa",
-    "body": "i.fa.fa-$1:value(aria-hidden='true') &nbsp;"
+    "body": "i.fa.fa-${1:value}(aria-hidden='true') &nbsp;",
+    "description": "add a font-awesome icon"
   }
 }

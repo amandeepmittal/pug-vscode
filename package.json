@@ -19,6 +19,10 @@
             {
                 "language": "jade",
                 "path": "./snippets/syntax.json"
+            },
+            {
+                "language": "jade",
+                "path": "./snippets/head.json"
             }
         ]
     },

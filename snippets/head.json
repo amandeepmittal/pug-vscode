@@ -1,0 +1,6 @@
+{
+  "link": {
+    "prefix": "link",
+    "body": "link(rel=\"stylesheet\", href=\"$1:css/style.css}\", $3:attr)$4"
+  }
+}

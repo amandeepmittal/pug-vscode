@@ -1,0 +1,29 @@
+{
+  "bootstrap template": {
+    "body": [
+      "doctype",
+      "html(lang='$1')",
+      "\thead",
+      "\t\tmeta(charset='utf-8')",
+      "\t\tmeta(http-equiv='X-UA-Compatible', content='IE=edge')",
+      "\t\t meta(name='viewport', content='width=device-width, initial-scale=1')",
+      "\t\t//- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags",
+      "\t\tmeta(name='description', content='')",
+      "\t\tmeta(name='author', content='')",
+      "\t\ttitle",
+      "\t\t//- Bootstrap core CSS",
+      "\t\tlink(href='/css/bootstrap.css', rel='stylesheet')",
+      "\t\t//- link(href='https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css', rel='stylesheet')",
+      "\t\t//- link(href='/css/style.css', rel='stylesheet')",
+      "\t\t// HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries",
+      "\t\t //if lt IE 9",
+      "\t\tscript(src='https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js')",
+      "\t\tscript(src='https://oss.maxcdn.com/respond/1.4.2/respond.min.js')",
+      "\tbody",
+      "\t\tblock content",
+      "\t\tscript(src='/js/jquery.js')",
+      "\t\tscript(src='/js/bootstrap.js')"
+    ],
+    "description": "generate a bootstrap template for pug/jade"
+  }
+}

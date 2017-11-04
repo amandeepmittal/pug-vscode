@@ -31,6 +31,10 @@
             {
                 "language": "jade",
                 "path": "./snippets/others.json"
+            },
+            {
+                "language": "jade",
+                "path": "./snippets/bootstrap-template.json"
             }
         ]
     },

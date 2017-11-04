@@ -40,6 +40,10 @@
             {
                 "language": "jade",
                 "path": "./snippets/bootstrap-syntax.json"
+            },
+            {
+                "language": "jade",
+                "path": "./snippets/bootstrap-login-form.json"
             }
         ]
     },
@@ -48,9 +52,7 @@
         "pug",
         "jade",
         "node",
-        "snippet",
-        "snippets",
-        "template"
+        "snippet"
     ],
     "homepage": "https://amandeepmittal.github.io/"
 }

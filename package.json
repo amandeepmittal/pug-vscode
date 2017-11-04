@@ -1,0 +1,31 @@
+{
+    "name": "pug",
+    "displayName": "pug",
+    "description": "Pug/Jade Snippets for VSCode",
+    "version": "0.0.1",
+    "publisher": "amandeepmittal",
+    "engines": {
+        "vscode": "^1.17.0"
+    },
+    "categories": [
+        "Snippets"
+    ],
+    "contributes": {
+        "snippets": [
+            {
+                "language": "jade",
+                "path": "./snippets/snippets.json"
+            }
+        ]
+    },
+    "keywords": [
+        "JavaScript",
+        "pug",
+        "jade",
+        "node",
+        "snippet",
+        "snippets",
+        "template"
+    ],
+    "homepage": "https://amandeepmittal.github.io/"
+}

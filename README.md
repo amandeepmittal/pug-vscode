@@ -29,6 +29,8 @@ Provides Pug/Jade Snippets for VSCode to avoid writing boilerplate code.
 - `button`
 - `footer` minimalistic footer
 - `panel`
+- `login` form
+- `signup` form
 
 **Others**
 - `cpug` require pug

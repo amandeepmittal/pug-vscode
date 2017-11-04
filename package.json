@@ -44,6 +44,10 @@
             {
                 "language": "jade",
                 "path": "./snippets/bootstrap-login-form.json"
+            },
+            {
+                "language": "jade",
+                "path": "./snippets/bootstrap-signup-form.json"
             }
         ]
     },

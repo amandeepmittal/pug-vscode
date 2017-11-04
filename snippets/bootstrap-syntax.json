@@ -1,0 +1,33 @@
+{
+  "form gorup": {
+    "prefix": "fgroup",
+    "body": [
+      ".form-group",
+      "\tlabel(for='$1:name') $2:Name",
+      "\tinput.form-control(type='$3:name', name='$4:name' placeholder='$5:holder')"
+    ]
+  },
+  "button": {
+    "prefix": "button",
+    "body": "button.btn.btn-$1:primary(type='submit') $2:Submit"
+  },
+  "footer": {
+    "prefix": "footer",
+    "body": [
+      "footer",
+      "\t.container",
+      "\t\tp",
+      "\t\t| &copy; 2016 |",
+      "\t\ti.fa.fa-$1:value(aria-hidden='true') &nbsp;",
+      "\t\ta(href='#') View Source"
+    ]
+  },
+  "panel": {
+    "prefix": "panel",
+    "body": [
+      ".panel.panel-primary",
+      "\t.panel-heading ${1:Heading}",
+      "\t.panel-body"
+    ]
+  }
+}

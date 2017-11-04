@@ -36,6 +36,10 @@
             {
                 "language": "jade",
                 "path": "./snippets/bootstrap-template.json"
+            },
+            {
+                "language": "jade",
+                "path": "./snippets/bootstrap-syntax.json"
             }
         ]
     },

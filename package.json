@@ -2,7 +2,7 @@
     "name": "pug",
     "displayName": "pug",
     "description": "Pug/Jade Snippets for VSCode",
-    "version": "0.1.0",
+    "version": "0.2.0",
     "publisher": "amandeepmittal",
     "icon": "images/pug.png",
     "engines": {

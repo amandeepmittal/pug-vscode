@@ -6,5 +6,9 @@
   "favicon": {
     "prefix": "favicon",
     "body": "link(rel=\"$1:shortcut-icon\", href=\"$2.ico\")"
+  },
+  "meta": {
+    "prefix": "meta",
+    "body": "meta(name=\"$1:name\" content=\"$2:content\")"
   }
 }

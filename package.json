@@ -23,6 +23,10 @@
             {
                 "language": "jade",
                 "path": "./snippets/head.json"
+            },
+            {
+                "language": "jade",
+                "path": "./snippets/tags.json"
             }
         ]
     },

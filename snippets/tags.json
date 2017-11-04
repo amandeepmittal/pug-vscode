@@ -1,0 +1,14 @@
+{
+  "anchor": {
+    "prefix": "a",
+    "body": "a(href=\"$1\") $2:link"
+  },
+  "image": {
+    "prefix": "img",
+    "body": "img(src=\"$1\", alt=\"$2:alt\")"
+  },
+  "form": {
+    "prefix": "form",
+    "body": "form(action=\"$1\" method=\"$2:method\")"
+  }
+}

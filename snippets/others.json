@@ -11,5 +11,9 @@
   "import pug": {
     "prefix": "ipug",
     "body": "import pug from 'pug';"
+  },
+  "font-awesome icon": {
+    "prefix": "fa",
+    "body": "i.fa.fa-$1:value(aria-hidden='true') &nbsp;"
   }
 }
